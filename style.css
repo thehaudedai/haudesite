@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+/* section{
+    margin-left: 50px;
+} */
+#hero-section{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10px;
+    width: 90vw;
+    display: inline-flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 150px;
+}
+
+#banner{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.nav-item{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #1B85D0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.nav-links li{
+    list-style-type: none;
+    padding: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    marker: 0;
+    display: inline-flex;
+}
+
+#about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e3e7ec;
+}
+
+.about-container {
+    width: 85%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: auto;
+}
+
+
+.title-text {
+    text-align: center;
+}
+
+.title-about {
+    font-family: "Roboto Slab", serif;
+    font-size: 6rem;
+    margin: 0;
+}
+
+.top-about {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.profile-photo img {
+    width: 400px;
+    max-width: 40vw;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.introduction {
+    width: 50%;
+}
+
+.introduction-name {
+    font-family: "Inter", sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #1B85D0;
+    margin: 0;
+}
+
+.introduction-title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0.5rem 0 1.5rem;
+}
+
+.introduction-summary {
+    font-family: "Inter", sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.8rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links img {
+    width: 50px;
+}
+
+
+.bottom-about {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill-info {
+    width: 40%;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-info-title {
+    font-family: "Roboto Slab", serif;
+    font-size: 2.2rem;
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+
+
+.skill-info-lists {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.skill-info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.tick-mark {
+    width: 24px;
+}
+
+.skill-info-item-name {
+    font-family: "Inter", sans-serif;
+    font-size: 1.15rem;
+}
